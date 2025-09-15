@@ -68,6 +68,10 @@ public class FabricItems {
             new StandDiscItem(new Item.Properties().stacksTo(1), new PowersHeyYa(null)));
     public static Item STAND_DISC_MANDOM = registerItem("mandom_disc",
             new StandDiscItem(new Item.Properties().stacksTo(1), new PowersMandom(null)));
+    public static Item STAND_DISC_THE_GRATEFUL_DEAD = registerItem("the_grateful_dead_disc",
+            new StandDiscItem(new Item.Properties().stacksTo(1), new PowersMandom(null)));
+    public static Item MAX_STAND_DISC_THE_GRATEFUL_DEAD = registerItem("max_the_grateful_dead_disc",
+            new MaxStandDiscItem(new Item.Properties().stacksTo(1), new PowersMandom(null)));
     public static Item STAND_DISC_SURVIVOR = registerItem("survivor_disc",
             new StandDiscItem(new Item.Properties().stacksTo(1), new PowersSurvivor(null)));
     public static Item STAND_DISC_ACHTUNG = registerItem("achtung_baby_disc",
@@ -362,6 +366,8 @@ public class FabricItems {
                         entries.accept(MAX_STAND_DISC_RATT);
                         entries.accept(STAND_DISC_DIVER_DOWN);
                         entries.accept(MAX_STAND_DISC_DIVER_DOWN);
+                        entries.accept(STAND_DISC_THE_GRATEFUL_DEAD);
+                        entries.accept(MAX_STAND_DISC_THE_GRATEFUL_DEAD);
 
 
                     }).build());
@@ -452,6 +458,9 @@ public class FabricItems {
         ModItems.STAND_DISC_CINDERELLA = STAND_DISC_CINDERELLA;
         ModItems.STAND_DISC_HEY_YA = STAND_DISC_HEY_YA;
         ModItems.STAND_DISC_MANDOM = STAND_DISC_MANDOM;
+        ModItems.STAND_DISC_THE_GRATEFUL_DEAD = STAND_DISC_THE_GRATEFUL_DEAD;
+        ModItems.MAX_STAND_DISC_THE_GRATEFUL_DEAD = MAX_STAND_DISC_THE_GRATEFUL_DEAD;
+        ((MaxStandDiscItem)MAX_STAND_DISC_THE_GRATEFUL_DEAD).baseDisc = ((StandDiscItem)STAND_DISC_THE_GRATEFUL_DEAD);
         ModItems.STAND_DISC_SURVIVOR = STAND_DISC_SURVIVOR;
         ModItems.STAND_DISC_ACHTUNG = STAND_DISC_ACHTUNG;
         ModItems.STAND_DISC_DIVER_DOWN = STAND_DISC_DIVER_DOWN;

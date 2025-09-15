@@ -37,6 +37,8 @@ public class ModItems {
     public static Item STAND_DISC_CINDERELLA;
     public static Item STAND_DISC_HEY_YA;
     public static Item STAND_DISC_MANDOM;
+    public static Item STAND_DISC_THE_GRATEFUL_DEAD;
+    public static Item MAX_STAND_DISC_THE_GRATEFUL_DEAD;
     public static Item STAND_DISC_SURVIVOR;
     public static Item STAND_DISC_ACHTUNG;
     public static Item STAND_DISC_DIVER_DOWN;
