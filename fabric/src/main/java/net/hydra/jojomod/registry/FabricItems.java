@@ -69,9 +69,9 @@ public class FabricItems {
     public static Item STAND_DISC_MANDOM = registerItem("mandom_disc",
             new StandDiscItem(new Item.Properties().stacksTo(1), new PowersMandom(null)));
     public static Item STAND_DISC_THE_GRATEFUL_DEAD = registerItem("the_grateful_dead_disc",
-            new StandDiscItem(new Item.Properties().stacksTo(1), new PowersMandom(null)));
+            new StandDiscItem(new Item.Properties().stacksTo(1), new PowersTheGratefulDead(null)));
     public static Item MAX_STAND_DISC_THE_GRATEFUL_DEAD = registerItem("max_the_grateful_dead_disc",
-            new MaxStandDiscItem(new Item.Properties().stacksTo(1), new PowersMandom(null)));
+            new MaxStandDiscItem(new Item.Properties().stacksTo(1), new PowersTheGratefulDead(null)));
     public static Item STAND_DISC_SURVIVOR = registerItem("survivor_disc",
             new StandDiscItem(new Item.Properties().stacksTo(1), new PowersSurvivor(null)));
     public static Item STAND_DISC_ACHTUNG = registerItem("achtung_baby_disc",
